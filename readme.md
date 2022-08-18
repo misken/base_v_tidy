@@ -42,10 +42,10 @@ tools in our research project.
 
 For now, I want to mention that in exploring these tools, I ended up
 going down the rabbit hole of the base R vs tidyverse debate for new R
-learners. As both a teacher, consultant and researcher/developer using R
-in very different ways, this is a fascinating debate and I learned much
-in digging into it again, as one must with the constant evolution of the
-R ecosystem. So, I’m really just using this post as a place to list some
+learners. As a teacher, consultant and researcher/developer using R in
+very different ways, this is a fascinating debate and I learned much in
+digging into it again, as one must with the constant evolution of the R
+ecosystem. So, I’m really just using this post as a place to list some
 useful resources for others interested in this debate as well as adding
 my modest two cents.
 
