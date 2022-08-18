@@ -50,9 +50,9 @@ has come more scrutiny. In particular, there’s a healthy debate on
 whether new R users should first learn base R and then move on to the
 tidyverse or whether they should immediately be taught the tidyverse
 approach. There is much to be learned from this debate as people
-exchange ideas, approaches and different approaches. R is a rich and
-deep language and debates like this get into some nooks and crannies
-that many would never otherwise know about.
+exchange ideas and different approaches to doing work with R. R is a
+rich and deep language and debates like this get into some nooks and
+crannies that many might never otherwise know about.
 
 A few good resources on this debate include the following. Within these
 are links to numerous related articles, posts, tweets, and rants.
