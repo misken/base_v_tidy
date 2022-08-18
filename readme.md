@@ -63,7 +63,7 @@ are links to numerous related articles, posts, tweets, and rants.
     discussion. Matloff is also the author of [fasteR: The fast lane to
     learning R](https://github.com/matloff/fasteR).
 -   David Robinson argues the tidyverse first side in posts such as
-    http://varianceexplained.org/r/teach-tidyverse/
+    http://varianceexplained.org/r/teach-tidyverse/ and
     http://varianceexplained.org/r/why-I-use-ggplot2/
 -   Data Carpentry has a post on [base R and tidy
     equivalents](https://tavareshugo.github.io/data_carpentry_extras/base-r_tidyverse_equivalents/base-r_tidyverse_equivalents.html)
@@ -80,7 +80,7 @@ There are a few Reddit threads that address this topic including [this
 one](https://www.reddit.com/r/rprogramming/comments/ondo0y/what_do_you_think_of_r_beginners_learning/)
 and [this
 one](https://www.reddit.com/r/rprogramming/comments/rd4ksl/i_am_concerned_about_the_tidyverse_and_its_impact/).
-One of the comments I found in this thread makes a good point: -
+One of the comments I found in this thread makes the following argument:
 
 > In mathematics class they see y=f(x), which is essentially output \<-
 > processing(input). In flowcharts you’ll often see input -\>
@@ -119,10 +119,10 @@ y[y > 0]
 
     [1] 1 2 3 4
 
-At the same time, students learn their way around R Studio and R
-Markdown documents and R scripts. The R Studio IDE (and related things
-like R Markdown and now Quarto) transcend this debate. They are simply
-really useful tools for teaching, learning and using R.
+At the same time, students immediately start to learn their way around R
+Studio and R Markdown documents and R scripts. The R Studio IDE (and
+related things like R Markdown and now Quarto) transcend this debate.
+They are simply really useful tools for teaching, learning and using R.
 
 ### Brackets and dollar signs
 
