@@ -2,6 +2,12 @@ A bit on base vs tidyverse for new R learners
 ================
 misken
 
+<!-- --- -->
+<!-- blogpost: true -->
+<!-- date: Aug 18, 2028 -->
+<!-- author: misken -->
+<!-- --- -->
+
 Recently I was working on a research project involving comparison of a
 bunch of predictive models (polynomial regression, natural cubic splines
 and a nonlinear power type model) and I figured I’d use
@@ -17,8 +23,8 @@ in caret and I didn’t immediately want to try creating a custom `caret`
 model, though this is definitely supported.
 
 So, I figured this was a good excuse to poke around in the
-[tidymodels]() world. As someone who teaches an [intro R and Python for
-data analytics
+[tidymodels](https://www.tidymodels.org/) world. As someone who teaches
+an [intro R and Python for data analytics
 course](http://www.sba.oakland.edu/faculty/isken/teaching.html), I was
 well aware of the tidyverse and use packages such as dplyr, tidyr, and
 readr in my course (yes, of course I cover ggplot but it does predate
