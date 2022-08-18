@@ -83,7 +83,7 @@ one](https://www.reddit.com/r/rprogramming/comments/rd4ksl/i_am_concerned_about_
 One of the comments I found in this thread makes a good point: -
 
 > In mathematics class they see y=f(x), which is essentially output \<-
-> processing(input). In flowcharts you’ll often see input \|\>
+> processing(input). In flowcharts you’ll often see input -\>
 > processing() -\> output. Take 10 minutes in a class to teach the
 > students to mentally connect these two, and everything should be fine.
 
