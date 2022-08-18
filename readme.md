@@ -172,7 +172,7 @@ amenable to being chained together.
 -   each returns a data frame
 
 They can be used in standard ways as functions but can also be chained
-together using the \`%\>% pipe operator from the **magrittr** package.
+together using the `%>%` pipe operator from the **magrittr** package.
 We’ll do it both ways and you can decide for yourself when to use which
 approach. The pipe just takes whatever is the result of the left side is
 and pipes it into the first argument of whatever is on the right side.
@@ -205,8 +205,9 @@ there are ways to help alleviate this concern. No one is forced to use
 the pipe. When I first encountered the pipe and some of the debugging
 difficulties associated with it, I realized that it wasn’t much
 different from the challenges associated with debugging complex SQL
-statements. Reading piped dplyr code is pretty easy and is like reading
-SQL.
+statements. Reading piped dplyr code is somewhat similar to reading SQL
+and is something that new R learners can do with practice and by
+starting out with standard intro SQLish dplyr statements.
 
 ### The tidyverse
 
@@ -215,7 +216,7 @@ individual libraries that we need. If you need `stringr` and `dplyr`,
 load `stringr` and `dplyr`. I don’t want my students to think of the
 tidyverse as this monolithic all or nothing thing they have to either
 totally buy in to or entirely reject. It’s a collection of opinionated,
-useful libraries. Use the bits you need. No need for dogma.
+useful libraries. Use the bits you need. Or not.
 
 ### Modeling
 
@@ -246,10 +247,10 @@ default_train <- Default[-testrecs,]  # Negative in front of vector means "not i
 I do bring it to the students attention that while some models conform
 to “standards” (such as having a `predict` method), there can be much
 variation in how different modeling packages expose their API and this
-can be a challenge. Tools like caret and its “successor”, tidymodels can
-really help address this challenge. In the Python world, the popularity
-of scikit-learn is partially due to its consistent API and one stop shop
-approach to building predictive modeling.
+can be a challenge. Tools like caret and its “successor”, tidymodels,
+can really help address this challenge. In the Python world, the
+popularity of scikit-learn is partially due to its consistent API and
+one stop shop approach to building predictive modeling.
 
 In addition, tools like pipelines in sckit-learn or workflows in
 tidymodels can help modelers avoid things like leaking training data
